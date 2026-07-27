@@ -1,0 +1,16 @@
+s={}
+print(type(s))
+value=input("enter your fav language : ")
+key=input("enter your name : ")
+s.update({key:value})
+value=input("enter your fav language : ")
+key=input("enter your name : ")
+s.update({key:value})
+value=input("enter your fav language : ")
+key=input("enter your name : ")
+s.update({key:value})
+value=input("enter your fav language : ")
+key=input("enter your name : ")
+s.update({key:value})
+
+print(s)
